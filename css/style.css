@@ -3,58 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+* body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.75;
   margin: 0 auto;
+  /* What We Do */
+  /* Who We Are */
 }
-body .header {
+* body .header {
   min-height: 10vh;
   width: 100%;
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(0, 0, 0);
   background-size: cover;
   background-position: center;
 }
-body .header__navbar {
+* body .header__navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px 0;
 }
-body .header__navbar .fa-explosion {
+* body .header__navbar .fa-explosion {
   font-size: 55px;
   position: absolute;
   left: 151px;
   cursor: pointer;
   background-image: linear-gradient(100deg, #0a5aa5, #f39913);
 }
-body .header__navbar h1 {
+* body .header__navbar h1 {
   color: #fff;
   font-size: 12px;
   position: absolute;
   left: 224px;
 }
-body .header__navbar__nav-links li {
+* body .header__navbar__nav-links li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
 }
-body .header__navbar__nav-links li a {
+* body .header__navbar__nav-links li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.631372549);
   cursor: pointer;
   font-size: 14px;
 }
-body .header__navbar__icons {
+* body .header__navbar__icons {
   display: flex;
   position: absolute;
   left: 1156px;
 }
-body .header__navbar__icons .fa-user,
-body .header__navbar__icons .fa-globe,
-body .header__navbar__icons .fa-bars {
+* body .header__navbar__icons .fa-user,
+* body .header__navbar__icons .fa-globe,
+* body .header__navbar__icons .fa-bars {
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -67,24 +68,24 @@ body .header__navbar__icons .fa-bars {
   border-radius: 50px;
   cursor: pointer;
 }
-body .container {
+* body .container {
   max-width: 100%;
   margin: 0 auto;
 }
-body .container__page {
+* body .container__page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem 4rem;
   padding-bottom: 3rem;
   background-color: black;
 }
-body .container__page__left {
+* body .container__page__left {
   position: relative;
   width: 600px;
   height: 604px;
   background-color: #000;
 }
-body .container__page__left h1 {
+* body .container__page__left h1 {
   position: absolute;
   color: #fff;
   font-size: 70px;
@@ -92,28 +93,28 @@ body .container__page__left h1 {
   top: 70px;
   font-weight: 10;
 }
-body .container__page__left h2 {
+* body .container__page__left h2 {
   position: absolute;
   color: #fff;
   font-size: 70px;
   left: 140px;
   top: 168px;
 }
-body .container__page__left h3 {
+* body .container__page__left h3 {
   position: absolute;
   color: #02b5c6;
   font-size: 30px;
   left: 140px;
   top: 334px;
 }
-body .container__page__left pre {
+* body .container__page__left pre {
   position: absolute;
   color: #fff;
   font-size: 16px;
   left: 140px;
   top: 387px;
 }
-body .container__page__left button {
+* body .container__page__left button {
   position: absolute;
   left: 140px;
   top: 495px;
@@ -125,7 +126,7 @@ body .container__page__left button {
   font-weight: bold;
   border-radius: 30px;
 }
-body .container__page img {
+* body .container__page img {
   position: absolute;
   left: 686px;
   top: 112px;
@@ -136,6 +137,136 @@ body .container__page img {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+* body .curved {
+  width: 1920px;
+  height: 254px;
+  background-color: #ebe9e9;
+}
+* body .curved .svg {
+  display: block;
+}
+* body .section-top__WhatWeDo {
+  margin-left: 40px;
+  color: #02b5c6;
+  font-size: 20px;
+  margin-top: 120px;
+}
+* body .section-top__jobMakers {
+  margin-left: 40px;
+  color: #1d1d1b;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px;
+}
+* body .section-top__info {
+  word-spacing: normal;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6e6e6d;
+  font-style: normal;
+  font-family: "Helvetica Neue", sans-seri;
+  padding: 0 30px;
+}
+* body .products {
+  margin: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+* body .products__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0px;
+  color: black;
+  background-color: white;
+  border: 2px solid #eeeeee;
+  box-shadow: 5px 10px 18px #ebe9e9;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+* body .products__item h2 {
+  font-size: 1.1em;
+}
+* body .products__item p {
+  font-size: 0.9em;
+  color: #686565;
+}
+* body .products__item i {
+  color: rgb(88, 100, 212);
+  font-size: 2.1em;
+}
+* body .container1 {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+* body .container1__page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 4rem;
+  padding-bottom: 3rem;
+  background-color: white;
+}
+* body .container1__page__left {
+  padding-left: 60px;
+}
+* body .container1__page__left__whoWeAre {
+  color: #02b5c6;
+  font-size: 20px;
+}
+* body .container1__page__left h2 {
+  color: #1d1d1b;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px;
+}
+* body .container1__page__left h3 {
+  color: #6e6e6d;
+}
+* body .container1__page__right {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  position: absolute;
+  left: 600px;
+  grid-gap: 30px;
+}
+* body .container1__page__right__card {
+  position: relative;
+}
+* body .container1__page__right__card__blur {
+  position: absolute;
+  background-color: #262727;
+  top: 291px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  display: inline-block;
+  opacity: 0.6;
+}
+* body .container1__page__right__card__blur__name {
+  position: absolute;
+  top: -4px;
+  left: 12px;
+  color: black;
+}
+* body .container1__page__right__card__blur__position {
+  position: absolute;
+  top: 25px;
+  left: 12px;
+  color: black;
+}
+* body .container1__page__right__card img {
+  width: 100%;
+  height: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */
