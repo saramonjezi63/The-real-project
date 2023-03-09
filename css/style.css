@@ -314,7 +314,7 @@
 * body .container2 {
   max-width: 100%;
   margin: 0 auto;
-  background: #ddddd9;
+  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,14 +331,16 @@
   font-size: 25px;
   margin-bottom: 18px;
   color: #02b5c6;
+  padding-top: 120px;
 }
 * body .container2__pricing h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
   font-size: 50px;
   font-weight: 500px;
+  color: white;
 }
 * body .container2__pricing .grid-container {
   display: grid;
@@ -351,7 +353,7 @@
   background: #3f3d3d;
   border: 1px solid rgba(187, 187, 187, 0.8);
   color: rgb(245, 245, 245);
-  padding: 2px;
+  padding: 10px 0;
   font-size: 15px;
   text-align: center;
 }

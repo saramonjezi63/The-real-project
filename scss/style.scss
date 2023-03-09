@@ -327,7 +327,7 @@
     .container2 {
       max-width: 100%;
       margin: 0 auto;
-      background: #ddddd9;
+      background: #000000;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -342,14 +342,17 @@
           font-size: 25px;
           margin-bottom: 18px;
           color: $blue;
+          padding-top: 120px;
         }
         h1 {
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-bottom: 18px;
+          margin-bottom: 30px;
           font-size: 50px;
           font-weight: 500px;
+          color: white;
+        
         }
 
         .grid-container {
@@ -357,15 +360,17 @@
           grid-template-columns: 350px 200px 200px 200px 200px;
           justify-content: space-evenly;
           grid-template-rows: minmax(200px);
+          
         }
         .grid-item {
           justify-content: space-around;
           background: #3f3d3d;
           border: 1px solid rgba(187, 187, 187, 0.8);
           color: rgb(245, 245, 245);
-          padding: 2px;
+          padding: 10px 0;
           font-size: 15px;
           text-align: center;
+       
         }
       }
     }
