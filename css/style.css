@@ -10,6 +10,7 @@
   margin: 0 auto;
   /* What We Do */
   /* Who We Are */
+  /*container2__pricing*/
 }
 * body .header {
   min-height: 10vh;
@@ -178,6 +179,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 25px;
+  column-gap: 0px;
 }
 * body .products__item {
   display: flex;
@@ -210,7 +212,7 @@
   width: 80px;
   border-radius: 50px;
   cursor: pointer;
-  color: rgb(88, 100, 212);
+  color: rgb(122, 149, 255);
   font-size: 2.9em;
 }
 * body .products__item h2 {
@@ -224,6 +226,7 @@
   max-width: 100%;
   margin: 0 auto;
   margin-top: 150px;
+  height: 500px;
 }
 * body .container1__page {
   display: grid;
@@ -256,6 +259,8 @@
   border-radius: 50%;
   border: none;
   background-color: #ddddd9;
+  margin-top: 30px;
+  margin-right: 4px;
 }
 * body .container1__page__left__btn1 .fa-arrow-left {
   font-size: 18px;
@@ -283,7 +288,7 @@
 * body .container1__page__right__card__blur {
   position: absolute;
   background-color: #262727;
-  top: 291px;
+  top: 309px;
   left: 0px;
   width: 100%;
   height: 60px;
@@ -294,17 +299,61 @@
   position: absolute;
   top: -4px;
   left: 12px;
-  color: rgb(255, 3, 3);
+  color: rgb(0, 0, 0);
 }
 * body .container1__page__right__card__blur__position {
   position: absolute;
   top: 20px;
   left: 12px;
-  color: rgb(255, 3, 3);
+  color: rgb(0, 0, 0);
 }
 * body .container1__page__right__card img {
   width: 100%;
-  height: 350px;
+  height: 370px;
+}
+* body .container2 {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #ddddd9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+* body .container2__pricing {
+  width: 600px;
+  height: 900px;
+}
+* body .container2__pricing h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 18px;
+  color: #02b5c6;
+}
+* body .container2__pricing h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-size: 50px;
+  font-weight: 500px;
+}
+* body .container2__pricing .grid-container {
+  display: grid;
+  grid-template-columns: 350px 200px 200px 200px 200px;
+  justify-content: space-evenly;
+  grid-template-rows: minmax(200px);
+}
+* body .container2__pricing .grid-item {
+  justify-content: space-around;
+  background: #3f3d3d;
+  border: 1px solid rgba(187, 187, 187, 0.8);
+  color: rgb(245, 245, 245);
+  padding: 2px;
+  font-size: 15px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
