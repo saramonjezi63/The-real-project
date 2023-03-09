@@ -333,7 +333,7 @@
       justify-content: center;
       padding-top: 50px;
       &__pricing {
-        width: 600px;
+        width: 1200px;
         height: 900px;
         h5 {
           display: flex;
@@ -352,17 +352,15 @@
           font-size: 50px;
           font-weight: 500px;
           color: white;
-        
         }
 
         .grid-container {
           display: grid;
-          grid-template-columns: 350px 200px 200px 200px 200px;
-          justify-content: space-evenly;
-          grid-template-rows: minmax(200px);
-          
+          grid-template-columns: 350px repeat(4, 200px);
+          grid-template-rows: repeat(10, 50px);
         }
         .grid-item {
+          display: flex;
           justify-content: space-around;
           background: #3f3d3d;
           border: 1px solid rgba(187, 187, 187, 0.8);
@@ -370,7 +368,26 @@
           padding: 10px 0;
           font-size: 15px;
           text-align: center;
-       
+
+          .grid-item:first-child {
+            grid-column: 1 / 6;
+          }
+          .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f39913;
+            width: 105px;
+            height: 40px;
+            color: #000;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+
+            a {
+            }
+          }
         }
       }
     }
